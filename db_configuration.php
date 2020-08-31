@@ -1,8 +1,14 @@
 <?php
-	$db = mysqli_connect('localhost', 'root','', 'practice');//or die("cannot connect to database");
 
-	if(!$db){
-   		die("connection to db failed" . mysqli_error($db));
+$host='localhost';
+$user='root';
+$db_pass='';
+$db_name='practice';
+
+$conn= mysqli_connect($host,$user,$db_pass,$db_name);
+
+	if(!$conn){
+   		die("connection to db failed" . mysqli_error($conn));
 	}
 ?>
 
