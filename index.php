@@ -1,4 +1,4 @@
-<?php include('./db_configuration.php')?>
+<?php include("./db_configuration.php")?>
 <!DOCTYPE html>
 <html>
 	<head>
