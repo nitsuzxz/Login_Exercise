@@ -1,4 +1,4 @@
-<?php include('server.php')?>
+<?php include('db_configuration.php')?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -7,7 +7,7 @@
 	
 	<body>
 		<div class="container">
-			<form action="registration.php" method="post">
+			<form action="registration_logic.php" method="post">
 				<?php include('errors.php')?>
 				
 				<div>

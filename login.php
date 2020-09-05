@@ -1,4 +1,4 @@
-<?php include('server.php')?>
+<?php include("./db_configuration.php")?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -7,7 +7,7 @@
 	
 	<body>
 		<div class="container">
-			<form action="login.php" method="post">
+			<form action="login_logic.php" method="post">
 				<div>
 					<label for="username">Username:</label>
 				</div>
