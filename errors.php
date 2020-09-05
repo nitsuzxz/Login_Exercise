@@ -1,4 +1,8 @@
-<?php if (count($error) > 0) :?>
+
+<?php 
+	$error = array();
+	if (count($error) > 0):?>
+	
 	<div>
 		<?php foreach($error as $err): ?>
 			<p><?php echo $err ?></p>
